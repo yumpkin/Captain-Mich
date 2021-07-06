@@ -1,6 +1,6 @@
 
-<p align="center"><img width=12.5% src="https://github.com/updowntree/Mich_the_pirate/blob/master/images/circle_pirate.png"></p>
-<p align="center"><img width=60% src="https://github.com/updowntree/Mich_the_pirate/blob/master/images/Pirate_Adventures.png"></p>
+<p align="center"><img width=12.5% src="https://github.com/alridha/travelling-pirate-man/blob/master/images/circle_pirate.png"></p>
+<p align="center"><img width=60% src="https://github.com/alridha/travelling-pirate-man/blob/master/images/Pirate_Adventures.png"></p>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![Python](https://img.shields.io/badge/python-v3.6+-blue.svg)
@@ -29,7 +29,7 @@ there is one important restriction: the total amount of money that Captin Mich c
 Now, who else Captin Mich would ask to help planning the voyage, if not the Tech scouts!
 
 ## Visualize the tour
-<p align="center"><img width=95% src="https://github.com/updowntree/Mich_the_pirate/blob/master/images/long_tour.png"></p>
+<p align="center"><img width=95% src="https://github.com/alridha/travelling-pirate-man/blob/master/images/long_tour.png"></p>
 
 <br>
 
