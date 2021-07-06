@@ -41,7 +41,7 @@ Provide the Captin with the best route through islands now.
 ### Episode Three (Basic Euclidan TSP)
 Captin Mich sold his ship and now travels by Seabus. Although less comfortable, it get much cheaper! The rules on board of Seabus forbid partying, so the Captin will not consider ![formula](https://render.githubusercontent.com/render/math?math=M).
 Help the captin find the best route through the islands now.
-<p align="center"><img width=90% src="https://github.com/updowntree/Mich_the_pirate/blob/master/images/ETSP.png"></p>
+<p align="center"><img width=90% src="https://github.com/alridha/travelling-pirate-man/blob/master/images/ETSP.png"></p>
 
 ### Episode Four (Vertex cover)
 The Captin wanted to pick the islands that allows him to for an Archipelago for entourage, so that they can an eye on the Pirate's kingdom of stolen islands,
