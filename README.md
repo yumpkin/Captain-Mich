@@ -3,7 +3,7 @@
 Modification for the Travelling Salesman Problem, written in Python, with Bin-packing and vertex cover problems.
 
 ---
-[](.github/readme-resources/screenshot-main.png)
+[](https://github.com/alridha/Captain-Mich/blob/main/.github/readme-resources/screenshot-main.png)
 
 ---
 # Contents
