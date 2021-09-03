@@ -1,5 +1,5 @@
 # Captain Mich
-![head](.github/readme-resources/pirate.png)
+<img src="https://github.com/alridha/Captain-Mich/blob/main/.github/readme-resources/pirate.png" width="25" height="25">
 Modification for the Travelling Salesman Problem, written in Python, with Bin-packing and vertex cover problems.
 
 ---
