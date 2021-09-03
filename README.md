@@ -25,12 +25,12 @@ It is not even the 0.1 version, super buggy codes inside.
 
 ## Understanding the story
 **Epsiode One**
-Captin Mich is a renown pirate, nurturing a plan to rob several islands in the Carbian Sea(total of ```![formula](https://render.githubusercontent.com/render/math?math=n)``` islands). He knows how much money he can capture on each island(thanks to Panama Papers he has in the ship library),
+Captin Mich is a renown pirate, nurturing a plan to rob several islands in the Carbian Sea(total of ![formula](https://render.githubusercontent.com/render/math?math=n) islands). He knows how much money he can capture on each island(thanks to Panama Papers he has in the ship library),
 as well as he knows the coordinates of all the islands(as there is a stolen cell phone with Google Maps in the pirate's possession). Captin Mich wants to visit some of the islands that are shown on the Google Maps,
 starting from his homeisland and finishing his journey there as well. Captin Mich knows that sailing is not cheap:
-to go some distance ```![formula](https://render.githubusercontent.com/render/math?math=d)``` by sea requires the amount of money that is numerically equal to ```![formula](https://render.githubusercontent.com/render/math?math=p*d)```.
+to go some distance ![formula](https://render.githubusercontent.com/render/math?math=d) by sea requires the amount of money that is numerically equal to ![formula](https://render.githubusercontent.com/render/math?math=p*d).
 During his voyage Captin Mich wants to get as much total profit as possible, so he would agree to not visiting any island if the cost of going there outweighs the money stored on that island, the only exception is the pirate's homeisland.
-there is one important restriction: the total amount of money that Captin Mich captures on any ```![formula](https://render.githubusercontent.com/render/math?math=k)``` consecutive island must not exceed ```![formula](https://render.githubusercontent.com/render/math?math=M)```, or the captin would be overflowed with his pirates glory and would overdose rum, while celebrating the victories.
+there is one important restriction: the total amount of money that Captin Mich captures on any ![formula](https://render.githubusercontent.com/render/math?math=k) consecutive island must not exceed ![formula](https://render.githubusercontent.com/render/math?math=M), or the captin would be overflowed with his pirates glory and would overdose rum, while celebrating the victories.
 
 #### Dependencies
 
