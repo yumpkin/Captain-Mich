@@ -1,24 +1,67 @@
+# Captain Mich
 
-<p align="center"><img width=12.5% src="https://github.com/alridha/travelling-pirate-man/blob/master/images/circle_pirate.png"></p>
-<p align="center"><img width=60% src="https://github.com/alridha/travelling-pirate-man/blob/master/images/Pirate_Adventures.png"></p>
+Multi-version modification for the Travelling Salesman Problem, written in Python, with Bin-packing and vertex cover problems.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![Python](https://img.shields.io/badge/python-v3.6+-blue.svg)
+---
 
-<br>
+![Screenshot showing the main menu](.github/readme-resources/screenshot-main.jpg)
 
-## TODO list
+---
 
-- [x] Adding Longest Increasing Subsequnce as solution to the ![formula](https://render.githubusercontent.com/render/math?math=M) constraint
-- [ ] Fixing the broken code logic of 2-OPT swapping implementation, doing iterative local search correctly
-- [ ] Try to implement new algorithms like the [Domino Algorithm]:https://iopscience.iop.org/article/10.1088/1757-899X/528/1/012043/pdf
-- [ ] Using Dynamic Programing and getting rid of all redundant repeated calculations
-- [ ] Making this code faster by using Cython and calling some Minizinc functions
-- [ ] Rewrite the entire work in C++ providing additional version of the project
-- [ ] Embedding into Tkinter GUI, and making an executable as a finished product.
-- [ ] Using Minecraft to visualize Island selection and the Pirate's tour
+### Chat
 
-### Epsiode One
+Chat takes place on Matrix and Discord.
+The channels are bridged to each other so you won't need an account on both services.
+
+If you want to help _make_ and _improve_ the game, join the developer room.
+
+If you're a user and need help or want to ask some questions then join the general room.
+
+Announcements are made in the announcement room and joining it is a good way to keep up-to-date with the project.
+
+| General | Development | Announcements |
+| ------- | ----------- | ------------- |
+| [![Matrix](https://img.shields.io/badge/matrix-general-yellow.svg)](https://matrix.to/#/#leafish-general:matrix.org) | [![Matrix](https://img.shields.io/badge/matrix-development-yellow.svg)](https://matrix.to/#/#leafish-development:matrix.org) | [![Matrix](https://img.shields.io/badge/matrix-announcements-yellow.svg)](https://matrix.to/#/#leafish-announcements:matrix.org) |
+| [![Discord](https://img.shields.io/badge/discord-general-blue.svg)](https://discord.gg/YkHCy3f4qt) | [![Discord](https://img.shields.io/badge/discord-development-blue.svg)](https://discord.gg/YkHCy3f4qt) | [![Discord](https://img.shields.io/badge/discord-announcements-blue.svg)](https://discord.gg/YkHCy3f4qt) |
+
+Aside from the individual rooms you can also join the [Matrix space](https://matrix.to/#/#leafish:matrix.org) to have all rooms grouped together nicely.
+
+# Contents
+
+- [Introduction](#introduction)
+- [Progress status](#progress-status)
+- [Understanding the story](#getting-the-story)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+**Captain Mich** is an personal retell of the famous travelling salesman problem.
+The story combines different other optimization problems like vertex cover and bin packing, the solution I got to implement uses different nature-inspired optimization algorithms, approximation algorithms, and greedy approaches.
+The idea started from being a small task of mine, to become a project that is in progress to become more interactive, offers smarter solutions, and hopefully later to become an educational game like an open-world sandbox where players play the charcter of the pirate and start robbing the islands in a procedurally-generated 3D world with virtually infinite terrain, and may discover and extract raw materials(maximization constraints), craft tools and items(minimization constraints), and build structures or earthworks (fun tolerant constraints).
+
+**Warning**
+It is not even the 0.1 version, due to my laziness fix broken codes.
+
+
+## Progress status
+
+| Symbol | Meaning |
+| ------ | ------- |
+| ✓      | All features supported |
+| ✓--    | Partial features supported |
+| -      | Not yet supported |
+
+| Mich version | Language | Ready? |
+| ------------ | -------- | ---------- |
+
+| 0.0 | Python | ✓-- |
+| 0.1 | Python and Java | - |
+| 0.1 | Golang | - |
+
+
+## Understanding the story
+**Epsiode One**
 Captin Mich is a renown pirate, nurturing a plan to rob several islands in the Carbian Sea(total of ![formula](https://render.githubusercontent.com/render/math?math=n) islands). He knows how much money he can capture on each island(thanks to Panama Papers he has in the ship library),
 as well as he knows the coordinates of all the islands(as there is a stolen cell phone with Google Maps in the pirate's possession). Captin Mich wants to visit some of the islands that are shown on the Google Maps,
 starting from his homeisland and finishing his journey there as well. Captin Mich knows that sailing is not cheap:
@@ -26,29 +69,33 @@ to go some distance ![formula](https://render.githubusercontent.com/render/math?
 During his voyage Captin Mich wants to get as much total profit as possible, so he would agree to not visiting any island if the cost of going there outweighs the money stored on that island, the only exception is the pirate's homeisland.
 there is one important restriction: the total amount of money that Captin Mich captures on any ![formula](https://render.githubusercontent.com/render/math?math=k) consecutive island must not exceed ![formula](https://render.githubusercontent.com/render/math?math=M), or the captin would be overflowed with his pirates glory and would overdose rum, while celebrating the victories.
 
-Now, who else Captin Mich would ask to help planning the voyage, if not the Tech scouts!
+#### Dependencies
 
-## Visualize the tour
-<p align="center"><img width=95% src="https://github.com/alridha/travelling-pirate-man/blob/master/images/long_tour.png"></p>
+Checkout requirements.txt
 
-<br>
+**Debian/Ubuntu**
 
-### Episode Two
-Captin Mich is celebrating; using the money he got from the previous affair, he was able to upgrade his ship to a 4x4 mode, but it now requires more fuel and now more expensive for the Captin to sail(so the parameter ![formula](https://render.githubusercontent.com/render/math?math=p) got higher). As more money is needed to pay travel expenses, less money is left for partying, and Captin is no more afraid of overdosing rum, so ![formula](https://render.githubusercontent.com/render/math?math=M) got much larger.
-Provide the Captin with the best route through islands now.
+```sh
+sudo apt-get install cargo libssl-dev libxcb1-dev libxcb-render0-dev libxcb-shape0-dev libxcb-xfixes0-dev libxcb-composite0-dev
+```
 
+#### Running
 
-### Episode Three (Basic Euclidan TSP)
-Captin Mich sold his ship and now travels by Seabus. Although less comfortable, it get much cheaper! The rules on board of Seabus forbid partying, so the Captin will not consider ![formula](https://render.githubusercontent.com/render/math?math=M).
-Help the captin find the best route through the islands now.
-<p align="center"><img width=90% src="https://github.com/alridha/travelling-pirate-man/blob/master/images/ETSP.png"></p>
+Currently everything is just packed in a fun super buggy Jupyter notebook files.
+**An honest promise to make it an alive clean package soon.**
 
-### Episode Four (Vertex cover)
-The Captin wanted to pick the islands that allows him to for an Archipelago for entourage, so that they can an eye on the Pirate's kingdom of stolen islands,
-Help the Captin to find the minimal number of islands to form that Archipelago that covers the whole empire.
+## Contributing
 
-### Episode Five (Bin Packing)
-The Captin wanted to take as less containers as possible on his chip in order to not have any problems caused by redundant weight and volume, while he can still be sure, that he can fit all the spoils from his invasions into the containers that he has already taken, Help the Captin fitting the spoils and the items chosing the containers that fits most with his journey.
+A list of bugs and missing features can be found on the [issue tracker](https://github.com/alridha/captain-mich/issues/).
+Feel free to work on any bug and submit a pull request to the `main` branch with the fix.
+Mentioning that you intend to fix a bug on the issue will prevent other people from trying as well and makes sure no duplicated work is done.
 
+### New features
 
-<br>
+I first and foremost try to fix broken buggy codes, then make the game feature complete compared to the vanilla jupyter notebook edition and except for very specific things these should be prioritized.
+
+We can talk to us via Matrix and/or Discord, see links at the top of this page.
+for new Ideas regarding this small one, or other large projects.
+
+## License
+licensed MIT
