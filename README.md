@@ -7,23 +7,6 @@ Modification for the Travelling Salesman Problem, written in Python, with Bin-pa
 ![Screenshot showing the main menu](.github/readme-resources/screenshot-main.jpg)
 
 ---
-
-### Chat
-
-Chat takes place on Matrix and Discord.
-The channels are bridged to each other so you won't need an account on both services.
-
-If you want to help _make_ and _improve_ the game, join the developer room.
-
-If you're a user and need help or want to ask some questions then join the general room.
-
-Announcements are made in the announcement room and joining it is a good way to keep up-to-date with the project.
-
-| Reach out |
-| ------- | 
-| [![Matrix](https://img.shields.io/badge/matrix-general-yellow.svg)](https://matrix.to/#/#leafish-general:matrix.org)
-| [![Discord](https://img.shields.io/badge/discord-general-blue.svg)](https://discord.gg/YkHCy3f4qt)
-
 # Contents
 
 - [Introduction](#introduction)
@@ -39,7 +22,7 @@ The story combines different other optimization problems like vertex cover and b
 The idea started from being a small task of mine, to become a project that is in progress to become more interactive, offers smarter solutions, and hopefully later to become an educational game like an open-world sandbox where players play the charcter of the pirate and start robbing the islands in a procedurally-generated 3D world with virtually infinite terrain, and may discover and extract raw materials(maximization constraints), craft tools and items(minimization constraints), and build structures or earthworks (fun tolerant constraints).
 
 **Warning**
-It is not even the 0.1 version, due to my laziness fix broken codes.
+It is not even the 0.1 version, super buggy codes inside.
 
 ## Understanding the story
 **Epsiode One**
@@ -52,13 +35,8 @@ there is one important restriction: the total amount of money that Captin Mich c
 
 #### Dependencies
 
-Checkout requirements.txt
+Checkout '''requirements.txt'''
 
-**Debian/Ubuntu**
-
-```sh
-sudo apt-get install cargo libssl-dev libxcb1-dev libxcb-render0-dev libxcb-shape0-dev libxcb-xfixes0-dev libxcb-composite0-dev
-```
 
 #### Running
 
@@ -74,9 +52,6 @@ Mentioning that you intend to fix a bug on the issue will prevent other people f
 ### New features
 
 I first and foremost try to fix broken buggy codes, then make the game feature complete compared to the vanilla jupyter notebook edition and except for very specific things these should be prioritized.
-
-We can talk to us via Matrix and/or Discord, see links at the top of this page.
-for new Ideas regarding this small one, or other large projects.
 
 ## License
 licensed MIT
