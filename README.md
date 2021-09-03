@@ -9,7 +9,6 @@ Modification for the Travelling Salesman Problem, written in Python, with Bin-pa
 # Contents
 
 - [Introduction](#introduction)
-- [Progress status](#progress-status)
 - [Understanding the story](#getting-the-story)
 - [Contributing](#contributing)
 - [License](#license)
