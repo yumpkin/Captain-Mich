@@ -19,8 +19,8 @@ If you're a user and need help or want to ask some questions then join the gener
 
 Announcements are made in the announcement room and joining it is a good way to keep up-to-date with the project.
 
-| General | Development | Announcements |
-| ------- | ----------- | ------------- |
+| Reach out |
+| ------- | 
 | [![Matrix](https://img.shields.io/badge/matrix-general-yellow.svg)](https://matrix.to/#/#leafish-general:matrix.org)
 | [![Discord](https://img.shields.io/badge/discord-general-blue.svg)](https://discord.gg/YkHCy3f4qt)
 
