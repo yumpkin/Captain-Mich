@@ -34,7 +34,7 @@ there is one important restriction: the total amount of money that Captin Mich c
 
 #### Dependencies
 
-Checkout '''requirements.txt'''
+Checkout ```requirements.txt```
 
 
 #### Running
