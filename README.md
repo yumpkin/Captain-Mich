@@ -1,5 +1,5 @@
 # Captain Mich
-
+![head](.github/readme-resources/pirate.png)
 Modification for the Travelling Salesman Problem, written in Python, with Bin-packing and vertex cover problems.
 
 ---
@@ -21,6 +21,7 @@ The idea started from being a small task of mine, to become a project that is in
 
 **Warning**
 It is not even the 0.1 version, super buggy codes inside.
+---
 
 ## Understanding the story
 **Epsiode One**
@@ -31,6 +32,7 @@ to go some distance ![formula](https://render.githubusercontent.com/render/math?
 During his voyage Captin Mich wants to get as much total profit as possible, so he would agree to not visiting any island if the cost of going there outweighs the money stored on that island, the only exception is the pirate's homeisland.
 there is one important restriction: the total amount of money that Captin Mich captures on any ![formula](https://render.githubusercontent.com/render/math?math=k) consecutive island must not exceed ![formula](https://render.githubusercontent.com/render/math?math=M), or the captin would be overflowed with his pirates glory and would overdose rum, while celebrating the victories.
 
+![tour](.github/readme-resources/long-tour.png)
 #### Dependencies
 
 Checkout ```requirements.txt```
