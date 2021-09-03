@@ -1,6 +1,6 @@
 # Captain Mich
 
-Multi-version modification for the Travelling Salesman Problem, written in Python, with Bin-packing and vertex cover problems.
+Modification for the Travelling Salesman Problem, written in Python, with Bin-packing and vertex cover problems.
 
 ---
 
@@ -21,10 +21,8 @@ Announcements are made in the announcement room and joining it is a good way to 
 
 | General | Development | Announcements |
 | ------- | ----------- | ------------- |
-| [![Matrix](https://img.shields.io/badge/matrix-general-yellow.svg)](https://matrix.to/#/#leafish-general:matrix.org) | [![Matrix](https://img.shields.io/badge/matrix-development-yellow.svg)](https://matrix.to/#/#leafish-development:matrix.org) | [![Matrix](https://img.shields.io/badge/matrix-announcements-yellow.svg)](https://matrix.to/#/#leafish-announcements:matrix.org) |
-| [![Discord](https://img.shields.io/badge/discord-general-blue.svg)](https://discord.gg/YkHCy3f4qt) | [![Discord](https://img.shields.io/badge/discord-development-blue.svg)](https://discord.gg/YkHCy3f4qt) | [![Discord](https://img.shields.io/badge/discord-announcements-blue.svg)](https://discord.gg/YkHCy3f4qt) |
-
-Aside from the individual rooms you can also join the [Matrix space](https://matrix.to/#/#leafish:matrix.org) to have all rooms grouped together nicely.
+| [![Matrix](https://img.shields.io/badge/matrix-general-yellow.svg)](https://matrix.to/#/#leafish-general:matrix.org)
+| [![Discord](https://img.shields.io/badge/discord-general-blue.svg)](https://discord.gg/YkHCy3f4qt)
 
 # Contents
 
@@ -42,23 +40,6 @@ The idea started from being a small task of mine, to become a project that is in
 
 **Warning**
 It is not even the 0.1 version, due to my laziness fix broken codes.
-
-
-## Progress status
-
-| Symbol | Meaning |
-| ------ | ------- |
-| ✓      | All features supported |
-| ✓--    | Partial features supported |
-| -      | Not yet supported |
-
-| Mich version | Language | Ready? |
-| ------------ | -------- | ---------- |
-
-| 0.0 | Python | ✓-- |
-| 0.1 | Python and Java | - |
-| 0.1 | Golang | - |
-
 
 ## Understanding the story
 **Epsiode One**
