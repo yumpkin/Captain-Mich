@@ -19,7 +19,7 @@ The story combines different other optimization problems like vertex cover and b
 The idea started from being a small task of mine, to become a project that is in progress to become more interactive, offers smarter solutions, and hopefully later to become an educational game like an open-world sandbox where players play the charcter of the pirate and start robbing the islands in a procedurally-generated 3D world with virtually infinite terrain, and may discover and extract raw materials(maximization constraints), craft tools and items(minimization constraints), and build structures or earthworks (fun tolerant constraints).
 
 **Warning**
-Many things to be fixed clearly.
+Clearly, there are some important things waiting to be fixed.
 ---
 
 ## Understanding the story
