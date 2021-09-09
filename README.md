@@ -18,7 +18,7 @@ Modification for the Travelling Salesman Problem, written in Python, with Bin-pa
 The story combines different other optimization problems like vertex cover and bin packing, the solution I got to implement uses different nature-inspired optimization algorithms, approximation algorithms, and greedy approaches.
 The idea started from being a small task of mine, to become a project that is in progress to become more interactive, offers smarter solutions, and hopefully later to become an educational game like an open-world sandbox where players play the charcter of the pirate and start robbing the islands in a procedurally-generated 3D world with virtually infinite terrain, and may discover and extract raw materials(maximization constraints), craft tools and items(minimization constraints), and build structures or earthworks (fun tolerant constraints).
 
-**Warning**
+**Warning:**
 <br>
 Clearly, there are some important things waiting to be fixed.
 ---
