@@ -55,4 +55,4 @@ Mentioning that you intend to fix a bug on the issue will prevent other people f
 I first and foremost try to fix broken buggy codes, then make the game feature complete compared to the vanilla jupyter notebook edition and except for very specific things these should be prioritized.
 
 ## License
-BSD (4-clause)
+BSD (3-clause)
